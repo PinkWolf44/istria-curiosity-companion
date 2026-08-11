@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mara's Little Field Guide to Istria</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero-header">
+        <h1>
+            Mara's Little Field Guide
+            <span>to Istria</span>
+        </h1>
+    </header>
+
+
+    <main class="hero">
+
+        <div class="welcome-wrapper">
+
+            <img
+                src="images/mara.png"
+                alt="Mara, the Istrian goat explorer"
+                class="mara-image"
+            >
+
+            <section class="welcome-card">
+
+                <p class="eyebrow">
+                    Hello Explorer!
+                </p>
+
+                <p class="welcome-text">
+                    I'm Mara. I carry a notebook, a satchel full of lavender,
+                    and far too many stories about Istria.
+                </p>
+
+                <button
+                    class="start-button"
+                    id="start-exploring"
+                >
+                    Start Exploring
+                </button>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <section class="explore-section" id="explore">
+
+        <h2>
+            What caught your eye?
+        </h2>
+
+        <p class="explore-intro">
+            Choose a trail and let curiosity do the rest.
+        </p>
+
+
+        <div class="category-grid">
+
+            <button class="category-card" id="history-card">
+                <img src="images/history-arch.png" alt="">
+                <span>History</span>
+            </button>
+
+            <button class="category-card" id="nature-card">
+                <img src="images/nature-olive-lavender.png" alt="">
+                <span>Nature</span>
+            </button>
+
+            <button class="category-card" id="food-card">
+                <img src="images/food-truffle-oil-wine.png" alt="">
+                <span>Food</span>
+            </button>
+
+            <button class="category-card" id="sea-card">
+                <img src="images/sea-shell-starfish.png" alt="">
+                <span>Sea</span>
+            </button>
+
+        </div>
+
+
+        <!-- =========================
+             HISTORY
+        ========================== -->
+
+        <section class="history-panel" id="history-panel">
+
+            <h2>
+                History
+            </h2>
+
+            <p class="history-kicker">
+                Stones remember things.
+            </p>
+
+            <p class="history-text">
+                Istria has been shaped by Romans, Venetians, medieval towns
+                and centuries of people passing through the Adriatic.
+            </p>
+
+            <button
+                class="history-next"
+                id="history-next"
+            >
+                Show me something curious
+            </button>
+
+        </section>
+
+
+        <section
+            class="discovery-card"
+            id="pula-discovery"
+        >
+
+            <p class="discovery-label">
+                A curious piece of Roman Istria
+            </p>
+
+            <h3>
+                The Pula Arena
+            </h3>
+
+            <p class="discovery-fact">
+                This enormous Roman amphitheatre has stood in Pula
+                for nearly two thousand years. It once hosted public
+                spectacles for thousands of people and is one of the
+                best-preserved Roman arenas still standing today.
+            </p>
+
+            <button
+                class="discovery-more"
+                id="discovery-more"
+            >
+                Tell me more
+            </button>
+
+
+            <div
+                class="rabbit-holes"
+                id="rabbit-holes"
+            >
+
+                <button
+                    class="rabbit-button"
+                    id="pula-importance"
+                >
+                    Why was Pula important?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="arena-events"
+                >
+                    What happened inside the arena?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="roman-trace"
+                >
+                    Show me another Roman trace
+                </button>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="pula-importance-answer"
+            >
+
+                <h4>
+                    Why was Pula important?
+                </h4>
+
+                <p>
+                    Pula sat in a valuable position on the Adriatic
+                    and became an important Roman settlement.
+                    Its harbour, trade routes and military value
+                    helped it grow into a major regional centre.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="arena-events-answer"
+            >
+
+                <h4>
+                    What happened inside the arena?
+                </h4>
+
+                <p>
+                    The arena was built for spectacle. Thousands of
+                    spectators could gather to watch gladiatorial
+                    contests, animal hunts and other public performances.
+                    It was entertainment, politics and social theatre
+                    all at once.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="roman-trace-answer"
+            >
+
+                <h4>
+                    The Temple of Augustus
+                </h4>
+
+                <p>
+                    A short walk from the Arena takes you to another Roman world:
+                    Pula's Forum. Here stands the Temple of Augustus, built around
+                    the beginning of the Roman Empire and dedicated to Roma and
+                    Emperor Augustus.
+                </p>
+
+                <p>
+                    Same city, completely different kind of Roman life:
+                    less roaring crowd, more politics, religion and public ceremony.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             NATURE
+        ========================== -->
+
+        <section
+            class="history-panel"
+            id="nature-panel"
+        >
+
+            <h2>
+                Nature
+            </h2>
+
+            <p class="history-kicker">
+                Did that bird just unfold a crown?
+            </p>
+
+            <p class="history-text">
+                Istria is full of places where forests, fields, wetlands
+                and rocky Mediterranean landscapes meet.
+                Sometimes the best discovery starts by simply looking up.
+            </p>
+
+            <button
+                class="history-next"
+                id="nature-next"
+            >
+                Show me something curious
+            </button>
+
+        </section>
+
+
+        <section
+            class="discovery-card"
+            id="hoopoe-discovery"
+        >
+
+            <p class="discovery-label">
+                A very stylish visitor to the Istrian countryside
+            </p>
+
+            <h3>
+                The Hoopoe With the Impossible Haircut
+            </h3>
+
+            <img
+                src="hoepoo.png"
+                alt="Watercolour illustration of a hoopoe with its crest raised"
+                class="discovery-image"
+            >
+
+            <p class="discovery-fact">
+                The hoopoe is almost impossible to mistake.
+                It has warm orange colouring, bold black-and-white wings
+                and an extraordinary fan-shaped crest that can suddenly
+                spring upright like a tiny feathered crown.
+            </p>
+
+            <button
+                class="discovery-more"
+                id="nature-more"
+            >
+                Tell me more
+            </button>
+
+
+            <div
+                class="rabbit-holes"
+                id="nature-rabbit-holes"
+            >
+
+                <button
+                    class="rabbit-button"
+                    id="hoopoe-crest"
+                >
+                    Why does it raise that enormous crest?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="hoopoe-food"
+                >
+                    What does a hoopoe eat?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="hoopoe-palud"
+                >
+                    Where can I go birdwatching in Istria?
+                </button>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="hoopoe-crest-answer"
+            >
+
+                <h4>
+                    Why does it raise that enormous crest?
+                </h4>
+
+                <p>
+                    Most of the time the hoopoe keeps its crest folded back.
+                    But when it lands, becomes excited or senses danger,
+                    those long feathers can suddenly fan open.
+                </p>
+
+                <p>
+                    It is basically the avian version of entering a room
+                    and making absolutely sure everyone noticed.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="hoopoe-food-answer"
+            >
+
+                <h4>
+                    What does a hoopoe eat?
+                </h4>
+
+                <p>
+                    That long curved beak is a specialised tool.
+                    Hoopoes probe soil, grass and leaf litter for insects,
+                    larvae and other small invertebrates hiding underground.
+                </p>
+
+                <p>
+                    So while the crest gets all the attention,
+                    the real working equipment is at the other end.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="hoopoe-palud-answer"
+            >
+
+                <h4>
+                    Where can I go birdwatching in Istria?
+                </h4>
+
+                <p>
+                    Palud, near Rovinj, is Istria's ornithological park.
+                    Its mix of wetland, woodland and coastal habitat attracts
+                    resident birds as well as species stopping during migration.
+                </p>
+
+                <p>
+                    More than 200 bird species have been recorded there,
+                    so Mara recommends binoculars and absolutely no expectations
+                    of getting anywhere quickly.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FOOD
+        ========================== -->
+
+        <section
+            class="history-panel"
+            id="food-panel"
+        >
+
+            <h2>
+                Food
+            </h2>
+
+            <p class="history-kicker">
+                Some landscapes are best understood by eating them.
+            </p>
+
+            <p class="history-text">
+                Truffles, olive oil, wine and local ingredients turn
+                the Istrian landscape into something you can quite literally taste.
+            </p>
+
+            <button
+                class="history-next"
+                id="food-next"
+            >
+                Show me something curious
+            </button>
+
+        </section>
+
+
+        <section
+            class="discovery-card"
+            id="truffle-discovery"
+        >
+
+            <p class="discovery-label">
+                Something mysterious beneath the forest floor
+            </p>
+
+            <h3>
+                The Truffle Underground
+            </h3>
+
+            <p class="discovery-fact">
+                Unlike ordinary mushrooms that announce themselves above the soil,
+                truffles grow underground near the roots of certain trees.
+                Finding them means knowing the forest, following scent
+                and sometimes trusting a very enthusiastic dog.
+            </p>
+
+            <button
+                class="discovery-more"
+                id="food-more"
+            >
+                Tell me more
+            </button>
+
+
+            <div
+                class="rabbit-holes"
+                id="food-rabbit-holes"
+            >
+
+                <button
+                    class="rabbit-button"
+                    id="truffle-underground"
+                >
+                    Why do truffles grow underground?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="truffle-dogs"
+                >
+                    Why are dogs used to find them?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="istrian-truffles"
+                >
+                    What makes Istrian truffles special?
+                </button>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="truffle-underground-answer"
+            >
+
+                <h4>
+                    Why do truffles grow underground?
+                </h4>
+
+                <p>
+                    Truffles live in partnership with tree roots.
+                    The fungus helps the tree obtain water and minerals,
+                    while the tree supplies the fungus with sugars made
+                    through photosynthesis.
+                </p>
+
+                <p>
+                    Their fruiting bodies develop beneath the soil,
+                    safely hidden from sunlight and drying air.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="truffle-dogs-answer"
+            >
+
+                <h4>
+                    Why are dogs used to find them?
+                </h4>
+
+                <p>
+                    Mature truffles release powerful aromas that travel through the soil.
+                    A trained dog's nose can detect that scent far better than ours can.
+                </p>
+
+                <p>
+                    The dog identifies the spot, the hunter digs carefully,
+                    and the forest gets to keep most of its secrets.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="istrian-truffles-answer"
+            >
+
+                <h4>
+                    What makes Istrian truffles special?
+                </h4>
+
+                <p>
+                    Istria has forests, soils and tree species that provide suitable
+                    conditions for several kinds of truffle.
+                    Over time, truffle hunting has also become part of the peninsula's
+                    food culture, particularly in its wooded interior.
+                </p>
+
+                <p>
+                    Which is rather marvellous when you remember that one of the region's
+                    celebrated foods is essentially something a dog persuaded a human
+                    to dig out of the mud.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SEA
+        ========================== -->
+
+        <section
+            class="history-panel"
+            id="sea-panel"
+        >
+
+            <h2>
+                Sea
+            </h2>
+
+            <p class="history-kicker">
+                Some Adriatic visitors look almost unreal.
+            </p>
+
+            <p class="history-text">
+                Istria's coast is not only beaches and blue water.
+                Beneath the surface lives an entire drifting,
+                glowing, stinging and occasionally very strange world.
+            </p>
+
+            <button
+                class="history-next"
+                id="sea-next"
+            >
+                Show me something curious
+            </button>
+
+        </section>
+
+
+        <section
+            class="discovery-card"
+            id="jellyfish-discovery"
+        >
+
+            <p class="discovery-label">
+                A wonderfully strange Mediterranean drifter
+            </p>
+
+            <h3>
+                The Jellyfish That Looks Like a Fried Egg
+            </h3>
+
+            <img
+                src="fried-egg-medusa.png"
+                alt="Watercolour illustration of a fried egg jellyfish"
+                class="discovery-image jellyfish-image"
+            >
+
+            <p class="discovery-fact">
+                This extraordinary Mediterranean jellyfish is nicknamed
+                the fried egg jellyfish because its raised amber-brown centre
+                sits inside a pale translucent bell, making it look remarkably
+                like an egg floating through the sea.
+            </p>
+
+            <button
+                class="discovery-more"
+                id="sea-more"
+            >
+                Tell me more
+            </button>
+
+
+            <div
+                class="rabbit-holes"
+                id="sea-rabbit-holes"
+            >
+
+                <button
+                    class="rabbit-button"
+                    id="jellyfish-sting"
+                >
+                    Does the fried egg jellyfish sting?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="jellyfish-brain"
+                >
+                    How does it move without a brain?
+                </button>
+
+                <button
+                    class="rabbit-button"
+                    id="adriatic-jellies"
+                >
+                    Which other jellyfish live in the Adriatic?
+                </button>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="jellyfish-sting-answer"
+            >
+
+                <h4>
+                    Does the fried egg jellyfish sting?
+                </h4>
+
+                <p>
+                    Like other jellyfish, it has specialised stinging cells
+                    used for catching prey and defending itself.
+                    Its sting is generally considered much less troublesome
+                    to people than that of some other Mediterranean jellyfish.
+                </p>
+
+                <p>
+                    Mara's rule still applies: admire mysterious floating egg,
+                    but do not poke mysterious floating egg.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="jellyfish-brain-answer"
+            >
+
+                <h4>
+                    How does it move without a brain?
+                </h4>
+
+                <p>
+                    A jellyfish does not have a brain like ours.
+                    Instead, it has a simple network of nerves that helps coordinate
+                    movement and respond to changes around it.
+                </p>
+
+                <p>
+                    By repeatedly contracting its bell, it pushes water backwards
+                    and propels itself forward, although currents still decide
+                    much of where it eventually travels.
+                </p>
+
+            </div>
+
+
+            <div
+                class="rabbit-answer"
+                id="adriatic-jellies-answer"
+            >
+
+                <h4>
+                    Which other jellyfish live in the Adriatic?
+                </h4>
+
+                <p>
+                    The Adriatic hosts several remarkable jellyfish,
+                    including the mauve stinger, barrel jellyfish
+                    and compass jellyfish.
+                </p>
+
+                <p>
+                    Some are delicate and nearly transparent,
+                    some can sting strongly, and some look as though
+                    the sea has started designing its own lamps.
+                </p>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
