@@ -82,7 +82,7 @@ body {
     font-size: 38px;
     font-weight: 600;
 
-    color: #A46A7C;
+    color: #7F465D;
 
     margin: 0 0 14px;
 }
@@ -206,6 +206,7 @@ body {
 
 .category-card:hover {
     transform: translateY(-4px);
+
     box-shadow: 0 10px 24px rgba(73, 60, 50, 0.10);
 }
 
@@ -471,11 +472,11 @@ body {
 @media (max-width: 800px) {
 
     body {
-        padding: 30px 18px 50px;
+        padding: 28px 18px 50px;
     }
 
     .hero-header {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .hero-header h1 {
@@ -483,26 +484,31 @@ body {
         line-height: 0.95;
     }
 
+
+    /* -------------------------
+       MARA MOBILE POSITION
+    ------------------------- */
+
     .welcome-wrapper {
         width: min(560px, 94vw);
 
-        padding-top: 150px;
+        padding-top: 45px;
 
         margin-top: 20px;
         margin-bottom: 60px;
     }
 
     .welcome-card {
-        padding: 135px 28px 36px;
+        padding: 115px 26px 36px;
 
         text-align: center;
     }
 
     .mara-image {
-        width: 220px;
+        width: 245px;
 
-        left: 50%;
-        top: 28px;
+        left: 20%;
+        top: -55px;
 
         transform: translateX(-50%);
 
@@ -516,24 +522,40 @@ body {
 
         font-size: 32px;
 
-        margin-bottom: 14px;
+        margin-bottom: 18px;
     }
 
     .welcome-text {
+        position: relative;
+
+        z-index: 3;
+
         font-size: 25px;
+        line-height: 1.45;
 
         margin-left: auto;
         margin-right: auto;
     }
 
     .start-button {
-        font-size: 16px;
-        padding: 14px 30px;
+        position: relative;
+
+        z-index: 3;
     }
+
+
+    /* -------------------------
+       MOBILE CATEGORY GRID
+    ------------------------- */
 
     .category-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    /* -------------------------
+       MOBILE CONTENT
+    ------------------------- */
 
     .history-panel,
     .discovery-card {
@@ -555,48 +577,37 @@ body {
 @media (max-width: 520px) {
 
     body {
-        padding: 24px 14px 42px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 
     .hero-header h1 {
         font-size: clamp(44px, 13vw, 60px);
     }
 
-    .hero-header h1 span {
-        margin-top: 8px;
-    }
-
     .welcome-wrapper {
-        width: 94vw;
+        width: 100%;
 
-        padding-top: 135px;
-
-        margin-top: 12px;
-        margin-bottom: 50px;
+        padding-top: 35px;
     }
 
     .welcome-card {
-        padding: 125px 22px 32px;
-
-        border-radius: 24px;
+        padding: 110px 22px 34px;
     }
 
     .mara-image {
-        width: 205px;
+        width: 235px;
 
-        left: 50%;
-        top: 26px;
-
-        transform: translateX(-50%);
+        left: 18%;
+        top: -52px;
     }
 
     .eyebrow {
-        font-size: 30px;
+        font-size: 31px;
     }
 
     .welcome-text {
         font-size: 23px;
-        line-height: 1.4;
     }
 
     .category-grid {
@@ -611,30 +622,12 @@ body {
         font-size: 40px;
     }
 
-    .history-kicker {
-        font-size: 25px;
-    }
-
-    .history-text {
-        font-size: 22px;
-    }
-
     .discovery-card h3 {
         font-size: 38px;
     }
 
     .discovery-fact {
         font-size: 23px;
-    }
-
-    .rabbit-button {
-        width: 100%;
-        text-align: center;
-    }
-
-    .discovery-image {
-        width: min(220px, 82%);
-        max-height: 260px;
     }
 
 }
