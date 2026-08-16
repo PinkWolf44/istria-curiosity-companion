@@ -1,4 +1,4 @@
-const CACHE_NAME = "mara-field-guide-v2";
+const CACHE_NAME = "mara-field-guide-v3";
 
 const FILES_TO_CACHE = [
     "./",
@@ -44,4 +44,4 @@ self.addEventListener("fetch", function (event) {
             })
     );
 
-});
+}); 
