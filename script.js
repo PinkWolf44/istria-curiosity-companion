@@ -560,3 +560,15 @@ adriaticJelliesButton.addEventListener("click", function () {
     });
 
 });
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+        navigator.serviceWorker
+            .register("./service-worker.js")
+            .then(function () {
+                console.log("Mara service worker registered.");
+            })
+            .catch(function (error) {
+                console.log("Service worker registration failed:", error);
+            });
+    });
+}

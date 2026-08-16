@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "Mara's Little Field Guide to Istria",
+  "short_name": "Mara's Guide",
+  "description": "A playful AI-powered curiosity companion for exploring Istria through history, nature, food and the sea.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F7EEDC",
+  "theme_color": "#66785B",
+  "icons": [
+    {
+      "src": "icons/mara-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/mara-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
